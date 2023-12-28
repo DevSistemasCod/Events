@@ -14,6 +14,6 @@
 
 7)  Crie um evento que desativa automaticamente funcionários que não estão alocados em nenhum projeto.
 
-8) Crie um evento que, a cada mês, atualize automaticamente o status dos projetos para "Em Andamento" se estiverem agendados para começar no mês atual.
+8) Crie um evento que a cada mês atualiza automaticamente o status dos projetos para "Em Andamento" se estiverem agendados para começar no mês atual.
 
-9) Crie um evento que, a cada trimestre, atribua um bônus de 2% a todos os funcionários do departamento de Vendas.
+9) Crie um evento que a cada trimestre atribua um bônus de 2% a todos os funcionários do departamento de Vendas.
