@@ -53,7 +53,7 @@ END;
 //
 DELIMITER ;
 
--- 5)  Crie um evento que atualize automaticamente a quantidade de funcionários em cada departamento com base nos registros da tabela funcionario.
+-- 5) Crie um evento que atualize automaticamente a quantidade de funcionários em cada departamento com base nos registros da tabela funcionario.
 DELIMITER //
 CREATE EVENT atualizar_quantidade_funcionarios
 ON SCHEDULE EVERY 1 DAY
@@ -98,7 +98,7 @@ END;
 //
 DELIMITER ;
 
--- 8) Crie um evento que, a cada mês, atualize automaticamente o status dos projetos para "Em Andamento" se estiverem agendados para começar no mês atual.
+-- 8) Crie um evento que a cada mês atualiza automaticamente o status dos projetos para "Em Andamento" se estiverem agendados para começar no mês atual.
 DELIMITER //
 CREATE EVENT atualizar_status_projetos_em_andamento
 ON SCHEDULE EVERY 1 MONTH
@@ -112,7 +112,7 @@ END;
 //
 DELIMITER ;
 
--- 9) Crie um evento que, a cada trimestre, atribua um bônus de 2% a todos os funcionários do departamento de Vendas.
+-- 9) Crie um evento que a cada trimestre atribua um bônus de 2% a todos os funcionários do departamento de Vendas.
 DELIMITER //
 CREATE EVENT atribuir_bonus_trimestral_vendas
 ON SCHEDULE EVERY 3 MONTH
